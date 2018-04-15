@@ -75,7 +75,7 @@ void insert(Heap &h, int data)
     bubbleUp( h , childIdx );
 }
 
-int remove(Heap &h)
+int extract(Heap &h)
 {
     int child = h.buffer.size() - 1;
     std::swap(h.buffer[child], h.buffer[0]);
