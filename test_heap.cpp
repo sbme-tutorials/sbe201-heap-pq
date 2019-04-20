@@ -12,7 +12,7 @@ int main()
     }
 
     while ( heap::size(myHeap) > 0 )
-        std::cout << "Heap Min:" << heap::remove( myHeap ) << std::endl;
+        std::cout << "Heap Min:" << heap::extract( myHeap ) << std::endl;
     
     return 0;
 }
